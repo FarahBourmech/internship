@@ -4,7 +4,7 @@ import requests
 import os
 from connection.JiraConnection import JiraConnection
 from dotenv import load_dotenv
-
+#
 load_dotenv()
 
 jira_url_base = os.getenv("url_jira_base")
